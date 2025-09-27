@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-criar-pensamento',
-  imports: [],
+  imports: [FormsModule],
   templateUrl: './criar-pensamento.html',
   styleUrl: './criar-pensamento.css'
 })

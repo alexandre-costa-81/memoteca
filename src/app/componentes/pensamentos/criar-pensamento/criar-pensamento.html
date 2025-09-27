@@ -10,7 +10,7 @@
       name="pensamento"
       id="pensamento"
       placeholder="Escreva aqui..."
-      [value]="pensamento.conteudo"
+      [(ngModel)]="pensamento.conteudo"
     >
 
     <label for="autoria">Quem é o autor do pensamento?</label>
@@ -20,7 +20,7 @@
       name="autoria"
       id="autoria"
       placeholder="Autor do pensamento..."
-      [value]="pensamento.autoria"
+      [(ngModel)]="pensamento.autoria"
     >
 
     <label for="modelo">Qual o modelo do cartão?</label>
@@ -33,6 +33,7 @@
             id="modelo1"
             value="modelo1"
             name="modelo-card"
+            [(ngModel)]="pensamento.modelo"
           >
           <div class="custom-radio">
             <span></span>
@@ -54,6 +55,7 @@
             id="modelo2"
             value="modelo2"
             name="modelo-card"
+            [(ngModel)]="pensamento.modelo"
           >
           <div class="custom-radio">
             <span></span>
@@ -75,6 +77,7 @@
             id="modelo3"
             value="modelo3"
             name="modelo-card"
+            [(ngModel)]="pensamento.modelo"
           >
           <div class="custom-radio">
             <span></span>
