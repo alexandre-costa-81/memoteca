@@ -4,10 +4,27 @@
   </header>
   <form>
     <label for="pensamento">O que você está pensando?</label>
-    <input type="textarea" class="input" name="pensamento" id="pensamento" placeholder="Escreva aqui...">
+    <input
+      type="textarea"
+      class="input"
+      name="pensamento"
+      id="pensamento"
+      placeholder="Escreva aqui..."
+      [value]="pensamento.conteudo"
+    >
+
     <label for="autoria">Quem é o autor do pensamento?</label>
-    <input type="textarea" class="input" name="autoria" id="autoria" placeholder="Autor do pensamento...">
+    <input
+      type="textarea"
+      class="input"
+      name="autoria"
+      id="autoria"
+      placeholder="Autor do pensamento..."
+      [value]="pensamento.autoria"
+    >
+
     <label for="modelo">Qual o modelo do cartão?</label>
+
     <div class="container-radio">
       <div class="radio-modelo">
         <label for="modelo1">
@@ -25,8 +42,8 @@
         Prévia:
         <div class="modelo modelo1 ff-roboto-mono">
           <img src="/imagens/modelo1.png" alt="Aspas azuis">
-          <p class="conteudo">Aqui vai o conteúdo do modelo 1</p>
-          <p class="autoria"><b>Aqui vai a autoria do modelo 1</b></p>
+          <p class="conteudo">{{ pensamento.conteudo }}</p>
+          <p class="autoria"><b>{{ pensamento.autoria }}</b></p>
         </div>
       </div>
 
@@ -46,8 +63,8 @@
         Prévia:
         <div class="modelo modelo2 ff-roboto-mono">
           <img src="/imagens/modelo2.png" alt="Aspas azul claro">
-          <p class="conteudo">Aqui vai o conteúdo do modelo 1</p>
-          <p class="autoria"><b>Aqui vai a autoria do modelo 1</b></p>
+          <p class="conteudo">{{ pensamento.conteudo }}</p>
+          <p class="autoria"><b>{{ pensamento.autoria }}</b></p>
         </div>
       </div>
 
@@ -67,8 +84,8 @@
         Prévia:
         <div class="modelo modelo3 ff-roboto-mono">
           <img src="/imagens/modelo3.png" alt="Aspas azul claro">
-          <p class="conteudo">Aqui vai o conteúdo do modelo 1</p>
-          <p class="autoria"><b>Aqui vai a autoria do modelo 1</b></p>
+          <p class="conteudo">{{ pensamento.conteudo }}</p>
+          <p class="autoria"><b>{{ pensamento.autoria }}</b></p>
         </div>
       </div>
     </div>
