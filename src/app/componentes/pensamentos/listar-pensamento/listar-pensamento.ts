@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { Pensamento } from "../pensamento/pensamento";
 import { PensamentoInterface } from '../pensamento';
+import { PensamentoService } from '../pensamento.service';
 
 @Component({
   selector: 'app-listar-pensamento',
@@ -11,4 +12,12 @@ import { PensamentoInterface } from '../pensamento';
 })
 export class ListarPensamento {
   listaPensamentos: PensamentoInterface[] = [];
+
+  constructor(private service: PensamentoService) {}
+
+  ngOnInit(): void {
+    this.service.listar().subscribe((pensamentos) => {
+      this.listaPensamentos = pensamentos;
+    });
+  }
 }
