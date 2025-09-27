@@ -18,4 +18,8 @@ export class CriarPensamento {
   salvarPensamento() {
     alert('Pensamento salvo com sucesso!');
   }
+
+  cancelar() {
+    alert('Operação cancelada!');
+  }
 }
