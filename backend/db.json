@@ -2,39 +2,63 @@
   "pensamentos": [
     {
       "id": 1,
-      "conteudo": "Que bom que você chegou! Cada encontro traz uma nova chance de aprender e compartilhar ideias.",
+      "conteudo": "Que bom que você chegou! Cada encontro traz uma nova chance de aprender, trocar ideias e crescer. A presença de cada pessoa contribui para criar um espaço mais rico em conhecimento e colaboração.",
       "autoria": "Nay",
       "modelo": "modelo1"
     },
     {
       "id": 2,
-      "conteudo": "Explorando Angular: cada componente é uma peça que dá forma a soluções incríveis.",
+      "conteudo": "Explorando Angular: cada componente é uma peça que dá forma a soluções incríveis. Quando entendemos a lógica por trás da estrutura, ganhamos confiança para desenvolver aplicações mais seguras e escaláveis.",
       "autoria": "Dev Alura",
       "modelo": "modelo2"
     },
     {
       "id": 3,
-      "conteudo": "Angular mostra como organização e escalabilidade podem andar de mãos dadas no desenvolvimento.",
+      "conteudo": "Angular mostra como organização e escalabilidade podem andar de mãos dadas no desenvolvimento. Ele nos ensina que boas práticas não são apenas opcionais, mas essenciais para o crescimento de projetos de longo prazo.",
       "autoria": "CodeLab",
       "modelo": "modelo3"
     },
     {
       "id": 4,
-      "conteudo": "Aprender é um processo contínuo — quanto mais praticamos, mais longe conseguimos ir.",
+      "conteudo": "Aprender é um processo contínuo — quanto mais praticamos, mais longe conseguimos ir. Não importa se os passos parecem pequenos no início, cada um deles nos aproxima de um resultado significativo e transformador.",
       "autoria": "Nay",
       "modelo": "modelo1"
     },
     {
       "id": 5,
-      "conteudo": "Estudar Angular é abrir portas para criar aplicações modernas e robustas.",
+      "conteudo": "Estudar Angular é abrir portas para criar aplicações modernas e robustas. Sua estrutura orientada a componentes traz clareza ao código, melhora a manutenção e permite que equipes colaborem de forma mais eficiente em grandes projetos.",
       "autoria": "Dev Alura",
       "modelo": "modelo2"
     },
     {
       "id": 6,
-      "conteudo": "Angular se destaca por unir clareza de código com poderosas ferramentas nativas.",
+      "conteudo": "Angular se destaca por unir clareza de código com poderosas ferramentas nativas. Mais do que um framework, ele representa uma filosofia de desenvolvimento que valoriza consistência, performance e escalabilidade em qualquer aplicação web.",
       "autoria": "CodeLab",
       "modelo": "modelo3"
+    },
+    {
+      "id": 7,
+      "conteudo": "O aprendizado nunca termina: cada linha de código escrita hoje é um convite para descobrir algo novo amanhã. A jornada no desenvolvimento é como um livro infinito, onde cada capítulo é escrito pelas nossas escolhas e dedicação diária.",
+      "autoria": "Nay",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 8,
+      "conteudo": "Dominar Angular exige paciência, prática e persistência. Mas cada esforço é recompensado: compreender o ciclo de vida de componentes, o poder das diretivas e a integração com APIs transforma simples ideias em sistemas completos e impactantes.",
+      "autoria": "Dev Alura",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 9,
+      "conteudo": "Construir projetos com Angular não é apenas sobre escrever código, mas sobre estruturar soluções que possam evoluir com o tempo. Isso envolve visão de arquitetura, entendimento do time e foco constante em boas práticas.",
+      "autoria": "CodeLab",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 10,
+      "conteudo": "A tecnologia avança em um ritmo impressionante, e frameworks como o Angular são apenas uma parte desse ecossistema em constante movimento. Por isso, mais importante do que aprender apenas uma ferramenta é cultivar a habilidade de adaptação, pesquisa e aprendizado contínuo. Quem domina essa mentalidade está sempre preparado para os desafios que surgem no desenvolvimento de software.",
+      "autoria": "Nay",
+      "modelo": "modelo1"
     }
   ]
 }
