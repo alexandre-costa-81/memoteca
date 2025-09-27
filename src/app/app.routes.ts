@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
 import { CriarPensamento } from './componentes/pensamentos/criar-pensamento/criar-pensamento';
 import { ListarPensamento } from './componentes/pensamentos/listar-pensamento/listar-pensamento';
+import { ExcluirPensamento } from './componentes/pensamentos/excluir-pensamento/excluir-pensamento';
 
 export const routes: Routes = [
     {
@@ -15,5 +16,9 @@ export const routes: Routes = [
     {
         path: 'listarPensamento',
         component: ListarPensamento
+    },
+    {
+        path: 'pensamentos/excluirPensamento/:id',
+        component: ExcluirPensamento
     }
 ];

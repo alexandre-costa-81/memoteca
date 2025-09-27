@@ -1,10 +1,11 @@
 import { NgClass } from '@angular/common';
 import { Component, Input } from '@angular/core';
 import { PensamentoInterface } from '../pensamento';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-pensamento',
-  imports: [NgClass],
+  imports: [NgClass, RouterLink],
   templateUrl: './pensamento.html',
   styleUrl: './pensamento.css'
 })
