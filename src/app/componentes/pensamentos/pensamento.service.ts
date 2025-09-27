@@ -14,4 +14,8 @@ export class PensamentoService {
   listar(): Observable<PensamentoInterface[]> {
     return this.http.get<PensamentoInterface[]>(this.API);
   }
+
+  criar(pensamento: PensamentoInterface): Observable<PensamentoInterface> {
+    return this.http.post<PensamentoInterface>(this.API, pensamento);
+  }
 }
