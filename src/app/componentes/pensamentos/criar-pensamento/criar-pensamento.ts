@@ -15,4 +15,7 @@ export class CriarPensamento {
     modelo: ''
   }
 
+  salvarPensamento() {
+    alert('Pensamento salvo com sucesso!');
+  }
 }
