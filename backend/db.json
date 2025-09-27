@@ -1,0 +1,40 @@
+{
+  "pensamentos": [
+    {
+      "id": 1,
+      "conteudo": "Que bom que você chegou! Cada encontro traz uma nova chance de aprender e compartilhar ideias.",
+      "autoria": "Nay",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 2,
+      "conteudo": "Explorando Angular: cada componente é uma peça que dá forma a soluções incríveis.",
+      "autoria": "Dev Alura",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 3,
+      "conteudo": "Angular mostra como organização e escalabilidade podem andar de mãos dadas no desenvolvimento.",
+      "autoria": "CodeLab",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 4,
+      "conteudo": "Aprender é um processo contínuo — quanto mais praticamos, mais longe conseguimos ir.",
+      "autoria": "Nay",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 5,
+      "conteudo": "Estudar Angular é abrir portas para criar aplicações modernas e robustas.",
+      "autoria": "Dev Alura",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 6,
+      "conteudo": "Angular se destaca por unir clareza de código com poderosas ferramentas nativas.",
+      "autoria": "CodeLab",
+      "modelo": "modelo3"
+    }
+  ]
+}
