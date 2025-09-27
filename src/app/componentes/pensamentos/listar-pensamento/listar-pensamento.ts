@@ -22,5 +22,11 @@ export class ListarPensamento {
       autoria: 'Alexandre',
       modelo: 'modelo2'
     },
+    {
+      id: 3,
+      conteudo: 'Comunicação com o componente filho. Comunicação com o componente filho. Comunicação com o componente filho. Comunicação com o componente filho. Comunicação com o componente filho. Comunicação com o componente filho. Comunicação com o componente filho. Comunicação com o componente filho. Comunicação com o componente filho. Comunicação com o componente filho. Comunicação com o componente filho.',
+      autoria: 'Alexandre',
+      modelo: 'modelo2'
+    },
   ];
 }
