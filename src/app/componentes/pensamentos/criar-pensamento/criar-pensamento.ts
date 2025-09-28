@@ -35,7 +35,8 @@ export class CriarPensamento {
         Validators.required,
         Validators.minLength(3),
       ])],
-      modelo: ['modelo1']
+      modelo: ['modelo1'],
+      favorito: [false]
     });
   }
 

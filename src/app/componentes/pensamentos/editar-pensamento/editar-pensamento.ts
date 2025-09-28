@@ -38,6 +38,7 @@ export class EditarPensamento {
           modelo: [pensamento.modelo, Validators.compose([
             Validators.required,
           ])],
+          favorito: [pensamento.favorito]
         });
       });
     }

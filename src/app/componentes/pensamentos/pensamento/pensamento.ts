@@ -15,7 +15,8 @@ export class Pensamento {
     id: 1,
     conteudo: 'Aprendendo Angular',
     autoria: 'Alexandre',
-    modelo: 'modelo1'
+    modelo: 'modelo1',
+    favorito: false
   }
 
   larguraPensamento(): string {
@@ -23,5 +24,12 @@ export class Pensamento {
       return 'pensamento-g';
     }
     return 'pensamento-p';
+  }
+
+  mudarIconeFavorito(): string {
+    if (this.pensamento.favorito) {
+      return 'ativo';
+    }
+    return 'inativo';
   }
 }
