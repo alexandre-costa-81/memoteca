@@ -18,6 +18,7 @@ export class ListarPensamento {
   haMaisPensamentos: boolean = true;
   filtro: string = '';
   favorito: boolean = false;
+  listaFavoritos: PensamentoInterface[] = [];
 
   constructor(private service: PensamentoService) {}
 
@@ -50,6 +51,7 @@ export class ListarPensamento {
     this.paginaAtual = 1;
     this.service.listar(this.paginaAtual, this.filtro, this.favorito).subscribe((pensamentos) => {
       this.listaPensamentos = pensamentos;
+      this.listaFavoritos = pensamentos;
     });
   }
 }

@@ -12,7 +12,7 @@
       "conteudo": "Explorando Angular: cada componente é uma peça que dá forma a soluções incríveis. Quando entendemos a lógica por trás da estrutura, ganhamos confiança para desenvolver aplicações mais seguras e escaláveis.",
       "autoria": "Dev Alura",
       "modelo": "modelo2",
-      "favorito": true
+      "favorito": false
     },
     {
       "id": 3,
@@ -33,7 +33,7 @@
       "conteudo": "Estudar Angular é abrir portas para criar aplicações modernas e robustas. Sua estrutura orientada a componentes traz clareza ao código, melhora a manutenção e permite que equipes colaborem de forma mais eficiente em grandes projetos.",
       "autoria": "Dev Alura",
       "modelo": "modelo2",
-      "favorito": false
+      "favorito": true
     },
     {
       "id": 6,
