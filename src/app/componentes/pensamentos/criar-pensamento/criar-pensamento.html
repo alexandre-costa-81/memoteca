@@ -11,6 +11,9 @@
       id="pensamento"
       placeholder="Escreva aqui..."
     >
+    @if (formulario.get('conteudo')?.errors && formulario.get('conteudo')?.touched) {
+      <div class="mensagem__erro">Pensamento é obrigatório</div>
+    }
 
     <label for="autoria">Quem é o autor do pensamento?</label>
     <input
@@ -20,6 +23,12 @@
       id="autoria"
       placeholder="Autor do pensamento..."
     >
+    @if (formulario.get('autoria')?.errors?.['required'] && formulario.get('autoria')?.touched) {
+      <div class="mensagem__erro">Autoria é obrigatório</div>
+    }
+    @if (formulario.get('autoria')?.errors?.['minlength'] && formulario.get('autoria')?.touched) {
+      <div class="mensagem__erro">Autoria deve ter pelo menos 3 caracteres</div>
+    }
 
     <label for="modelo">Qual o modelo do cartão?</label>
 
